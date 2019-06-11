@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/svo-timetable/static/css/main.35592ebf.chunk.css",
-    "main.js": "/svo-timetable/static/js/main.e8ab992d.chunk.js",
-    "main.js.map": "/svo-timetable/static/js/main.e8ab992d.chunk.js.map",
-    "runtime~main.js": "/svo-timetable/static/js/runtime~main.a0641376.js",
-    "runtime~main.js.map": "/svo-timetable/static/js/runtime~main.a0641376.js.map",
-    "static/js/2.b568d63f.chunk.js": "/svo-timetable/static/js/2.b568d63f.chunk.js",
-    "static/js/2.b568d63f.chunk.js.map": "/svo-timetable/static/js/2.b568d63f.chunk.js.map",
-    "index.html": "/svo-timetable/index.html",
-    "precache-manifest.c8ec169c91d9c98f3c05faf398a677e9.js": "/svo-timetable/precache-manifest.c8ec169c91d9c98f3c05faf398a677e9.js",
-    "service-worker.js": "/svo-timetable/service-worker.js",
-    "static/css/main.35592ebf.chunk.css.map": "/svo-timetable/static/css/main.35592ebf.chunk.css.map"
+    "main.css": "/yandex-test/static/css/main.35592ebf.chunk.css",
+    "main.js": "/yandex-test/static/js/main.b706c501.chunk.js",
+    "main.js.map": "/yandex-test/static/js/main.b706c501.chunk.js.map",
+    "runtime~main.js": "/yandex-test/static/js/runtime~main.a4759850.js",
+    "runtime~main.js.map": "/yandex-test/static/js/runtime~main.a4759850.js.map",
+    "static/js/2.b568d63f.chunk.js": "/yandex-test/static/js/2.b568d63f.chunk.js",
+    "static/js/2.b568d63f.chunk.js.map": "/yandex-test/static/js/2.b568d63f.chunk.js.map",
+    "index.html": "/yandex-test/index.html",
+    "precache-manifest.0b483fc1d64ba40c395545b2c3561cc6.js": "/yandex-test/precache-manifest.0b483fc1d64ba40c395545b2c3561cc6.js",
+    "service-worker.js": "/yandex-test/service-worker.js",
+    "static/css/main.35592ebf.chunk.css.map": "/yandex-test/static/css/main.35592ebf.chunk.css.map"
   }
 }
