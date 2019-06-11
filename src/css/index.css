@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.rotate-45 {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.rotate-315 {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.ui.attached.menu {
+  margin-bottom: 15px;
+}
+
+.ui.container {
+  margin: 15px 0;
+}
+
+.red {
+  color: #9f3a38;
+}
+
+@media screen and (max-width: 1399px) and (min-width: 1200px) {
+    .ui.container {
+      width: 1190px;
+    }
+}
+
+@media screen and (max-width: 1599px) and (min-width: 1400px) {
+    .ui.container {
+      width: 1390px;
+    }
+}
+
+@media screen and (max-width: 1799px) and (min-width: 1600px) {
+    .ui.container {
+      width: 1590px;
+    }
+}
+
+@media screen and (max-width: 1999px) and (min-width: 1800px) {
+    .ui.container {
+      width: 1790px;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .ui.container {
+      width: 1990px;
+    }
+}
+
+.mb15 {
+  margin-bottom: 15px;
+}
+
+.ui.buttons.flight-type {
+  margin-bottom: 15px;
+}
