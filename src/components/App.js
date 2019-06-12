@@ -123,7 +123,7 @@ class App extends React.Component {
             <Grid.Row>
               <Grid.Column computer={4} mobile={16} />
               <Grid.Column computer={8} mobile={16} textAlign='center'>
-                {!searchTerm &&
+                {!(searchTerm || loading || !flights) &&
                   <Button
                     content='Загрузить еще'
                     disabled={loading || btnLoading}

@@ -26,6 +26,7 @@ class Search extends React.Component {
       <Form onSubmit={this.onFormSubmit}>
         <Form.Input
           onChange={this.onInputChange}
+          onBlur={this.onFormSubmit}
           value={searchTerm}
           fluid
           placeholder='Поиск по номеру рейса, городу или авиакомпании'
