@@ -56,7 +56,7 @@ class Flight extends React.Component {
         <Segment {...segmentOptions}>
           <Grid>
             <Grid.Row>
-              <Grid.Column width={8}>
+              <Grid.Column computer={6} mobile={16} style={{ marginBottom: '15px' }}>
                 <Header as='h2'>
                   <Header.Content>
                     {flight.city}
@@ -67,15 +67,15 @@ class Flight extends React.Component {
                 </Header>
                 {this.renderAircraft()}
               </Grid.Column>
-              <Grid.Column width={2}>
+              <Grid.Column computer={3} mobile={6}>
                 <List>
                   {flight.numbers.map(number => <List.Item key={number}>{number}</List.Item>)}
                 </List>
               </Grid.Column>
-              <Grid.Column width={2}>
+              <Grid.Column computer={3} mobile={4}>
                 {`${flight.term} ${flight.gate}`}
               </Grid.Column>
-              <Grid.Column width={4}>
+              <Grid.Column computer={4} mobile={6}>
                 <Header as='h4'>
                   {flight.status}
                 </Header>
