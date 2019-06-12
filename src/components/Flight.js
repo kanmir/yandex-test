@@ -1,5 +1,5 @@
 import React from 'react';
-import { Segment, Grid, Header, List, Message, Icon } from 'semantic-ui-react';
+import { Segment, Grid, Header, List, Message, Icon, Label } from 'semantic-ui-react';
 
 class Flight extends React.Component {
 
@@ -9,6 +9,23 @@ class Flight extends React.Component {
       return true;
     }
     return false;
+  };
+
+  renderAircraft = () => {
+    const { flight } = this.props;
+    if (!flight) return '';
+    const labelOptions = {
+      style: { marginLeft: 0 }
+    };
+    if (flight.aircraft.toLowerCase().includes('Sukhoi'.toLowerCase())) {
+      labelOptions.color = 'red';
+    }
+    return (
+      <Label basic {...labelOptions}>
+        {flight.aircraft}
+      </Label>
+    );
+
   };
 
   renderTime = () => {
@@ -48,6 +65,7 @@ class Flight extends React.Component {
                     {this.renderTime()}
                   </Header.Subheader>
                 </Header>
+                {this.renderAircraft()}
               </Grid.Column>
               <Grid.Column width={2}>
                 <List>
