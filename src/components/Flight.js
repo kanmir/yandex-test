@@ -13,7 +13,7 @@ class Flight extends React.Component {
 
   renderAircraft = () => {
     const { flight } = this.props;
-    if (!flight) return '';
+    if (!flight || !flight.aircraft) return '';
     const labelOptions = {
       style: { marginLeft: 0 }
     };

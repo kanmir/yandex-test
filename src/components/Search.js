@@ -4,11 +4,15 @@ import { Form } from 'semantic-ui-react';
 class Search extends React.Component {
 
   state = {
-    searchTerm: ''
+    searchTerm: '',
+    oldTerm: ''
   };
 
   onFormSubmit = () => {
-    this.props.onSubmit(this.state.searchTerm);
+    const { searchTerm, oldTerm } = this.state;
+    if (searchTerm === oldTerm) return;
+    this.setState({ oldTerm: searchTerm })
+    this.props.onSubmit(searchTerm);
   };
 
   onInputChange = (e, { value }) => {
