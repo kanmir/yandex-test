@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/yandex-test/static/css/main.35592ebf.chunk.css",
-    "main.js": "/yandex-test/static/js/main.eb31a597.chunk.js",
-    "main.js.map": "/yandex-test/static/js/main.eb31a597.chunk.js.map",
+    "main.js": "/yandex-test/static/js/main.6e3b0eaf.chunk.js",
+    "main.js.map": "/yandex-test/static/js/main.6e3b0eaf.chunk.js.map",
     "runtime~main.js": "/yandex-test/static/js/runtime~main.a4759850.js",
     "runtime~main.js.map": "/yandex-test/static/js/runtime~main.a4759850.js.map",
     "static/js/2.b568d63f.chunk.js": "/yandex-test/static/js/2.b568d63f.chunk.js",
     "static/js/2.b568d63f.chunk.js.map": "/yandex-test/static/js/2.b568d63f.chunk.js.map",
     "index.html": "/yandex-test/index.html",
-    "precache-manifest.cb23923832852d75786f28b610650425.js": "/yandex-test/precache-manifest.cb23923832852d75786f28b610650425.js",
+    "precache-manifest.b16c3cc7f7724e5a9ce826c2212cbdeb.js": "/yandex-test/precache-manifest.b16c3cc7f7724e5a9ce826c2212cbdeb.js",
     "service-worker.js": "/yandex-test/service-worker.js",
     "static/css/main.35592ebf.chunk.css.map": "/yandex-test/static/css/main.35592ebf.chunk.css.map"
   }
