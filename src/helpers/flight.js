@@ -29,8 +29,12 @@ export const transformFlights = (flights, type) => {
       myMap.set(flight.i_id, item);
     } else {
       const item = myMap.get(flight.main_flight);
-      item.numbers.push(`${flight.co.code} ${flight.flt}`);
-      myMap.set(flight.main_flight, item);
+      try {
+        item.numbers.push(`${flight.co.code} ${flight.flt}`);
+        myMap.set(flight.main_flight, item);
+      } catch (e) {
+        console.log('Нет главного рейса для ' + flight.main_flight);
+      }
     }
   });
   for (let value of myMap.values()) {
